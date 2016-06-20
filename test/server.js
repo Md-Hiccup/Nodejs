@@ -16,4 +16,4 @@ app.engine('html' , require('ejs').renderFile);
 var cal = function(){
     console.log("Server start on port 3000");
 };
-var server = app.listen(3000 , cal);
+var server = app.listen(3000 ,"192.168.32.18", cal);
